@@ -1,9 +1,10 @@
 #!/usr/bin/perl
 #
+# Requires: Device::SerialPort 0.12 or greater
 #
 # Author: Bruce Garlock (bruce at bgarlock dot com)
 # Date:   2002-09-11
-# License: GPL, see: http://www.gnu.org/copyleft/gpl.txt
+# License: GPLv3, see: http://www.gnu.org/copyleft/gpl.txt
 #
 # Version: 0.1: Initial version.
 # Version: 0.2: Added in License/Contact info.
@@ -23,12 +24,15 @@
 # PERL module from CPAN.
 #
 #
+# 2008-05-02:  B. Garlock - Added to Google Code  http://code.google.com/p/serial-logger/
+#
+#
 
 use Device::SerialPort 0.12;
 
 $LOGDIR    = "/var/log";              # path to data file
-$LOGFILE   = "converting.log";            # file name to output to
-$PORT      = "/dev/ttyE10";          # port to watch
+$LOGFILE   = "converting.log";        # file name to output to
+$PORT      = "/dev/ttyE10";           # port to watch
 
 #
 #
