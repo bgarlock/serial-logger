@@ -13,12 +13,13 @@
 # port, to a specified logfile.  The logfile can then be parsed with
 # other programs for reporting purposes.
 # 
-# This program was written for logging Multitech's
+# This program was written specifically for logging Multitech's
 # MTASR2-203 T1 Router.  The router outputs text to the command
-# port with 57.6k, 8-1-N, and No flow control.
+# port with 57.6k, 8-1-N, and No flow control.  Be sure to specify the serial
+# port settings below for you own use.
 #
 # The port can be setup below using ditty or stty.  Please
-# obecify this in the TTYPROG name variable.
+# specify this in the TTYPROG name variable.
 #
 # Ideas/Code from this were taken right from the sample code in the Device::SerialPort
 # PERL module from CPAN.
