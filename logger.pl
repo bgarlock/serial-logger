@@ -8,6 +8,8 @@
 #
 # Version: 0.1: Initial version.
 # Version: 0.2: Added in License/Contact info.
+# Version: 0.3: Added to GoogleCode Subversion repo:  <https://serial-logger.googlecode.com:443> Google Code Subversion Repository
+#               
 #
 # Description:  This perl script is for logging of data from a serial
 # port, to a specified logfile.  The logfile can then be parsed with
